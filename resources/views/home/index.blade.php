@@ -26,6 +26,7 @@
                         <li><a href="">Account</a></li>
                     </ul>
                 </nav>
+                <img src="assets/img/cart.png" width="30px" height="30px">
             </div>
             <div class="row">
                 <div class="col-2">
