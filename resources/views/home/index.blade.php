@@ -61,7 +61,36 @@
     </div>
 
     <!------------ Featured Products------->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="assets/img/product-1.jpg">
+                <h4>Red Printed T-Shirt</h4>
+                <p>****</p>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="assets/img/product-2.jpg">
+                <h4>Red Printed T-Shirt</h4>
+                <p>****</p>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="assets/img/product-3.jpg">
+                <h4>Red Printed T-Shirt</h4>
+                <p>****</p>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="assets/img/product-4.jpg">
+                <h4>Red Printed T-Shirt</h4>
+                <p>****</p>
+                <p>$50.00</p>
+            </div>
 
+        </div>
+    </div>
 
 </body>
 
