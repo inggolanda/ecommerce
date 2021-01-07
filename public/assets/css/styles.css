@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -30,6 +28,9 @@ a{
 }
 p{
     color: #555;
+}
+body{
+    font-family: poppins;
 }
 .container{
     max-width: 1300px;
@@ -133,4 +134,42 @@ p{
 }
 .col-4:hover{
     transform: translateY(-5px);
+}
+/*-----------offer---*/
+.offer{
+    background: radial-gradient(#fff,#ffd6d6);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
+.col-2 .offer-img{
+    padding: 50px;
+}
+.small{
+    color: #555;
+}
+
+/*-----------testimonial----------*/
+.testimonial{
+    padding-top: 100px;
+}
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(85, 76, 76, 0.418);
+    cursor: pointer;
+    border-radius: 25px;
+    transition: transform 0.5s;
+}
+.testimonial .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.testimonial .col-3:hover{
+    transform: translateY(-10px);
+}
+.fa.fa-quote-left{
+    font-size: 34px;
+    color: #ff523b;
 }
