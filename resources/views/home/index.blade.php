@@ -245,7 +245,7 @@
             <div class="row">
                 <div class="col-3">
                     <i class="fa fa-quote-left"></i>
-                    <p>Tmaksdmsdnwjasdnsmmdkwmsmdnamasm</p>
+                    <p>Ta</p>
                     <div class="rating">
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
