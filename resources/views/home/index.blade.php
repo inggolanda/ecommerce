@@ -259,7 +259,7 @@
 
                 <div class="col-3">
                     <i class="fa fa-quote-left"></i>
-                    <p>Tmaksdmsdnwjasdnsmmdkwmsmdnamasm</p>
+                    <p>Ta</p>
                     <div class="rating">
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
@@ -268,12 +268,12 @@
                         <i class="fa fa-star-half"></i>
                     </div>
                     <img src="assets/img/user-2.png">
-                    <h3>Sean Parker</h3>
+                    <h3>James</h3>
                 </div>
 
                 <div class="col-3">
                     <i class="fa fa-quote-left"></i>
-                    <p>Tmaksdmsdnwjasdnsmmdkwmsmdnamasm</p>
+                    <p>Ta</p>
                     <div class="rating">
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
@@ -282,9 +282,72 @@
                         <i class="fa fa-star-half"></i>
                     </div>
                     <img src="assets/img/user-3.png">
-                    <h3>Sean Parker</h3>
+                    <h3>Poppins</h3>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <!------------ brands------->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="assets/img/logo-godrej.png">
+                </div>
+                <div class="col-5">
+                    <img src="assets/img/logo-oppo.png">
+                </div>
+                <div class="col-5">
+                    <img src="assets/img/logo-coca-cola.png">
+                </div>
+                <div class="col-5">
+                    <img src="assets/img/logo-paypal.png">
+                </div>
+                <div class="col-5">
+                    <img src="assets/img/logo-philips.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------ footer------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p> Download App for Android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="assets/img/play-store.png">
+                        <img src="assets/img/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="assets/img/logo-white.png">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure <br> and of Sport Accessible To The Many.offer mine</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Link</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright"> Copyright 2020 - Inggo Landa Portfolio</p>
         </div>
     </div>
 
