@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RedStore | Ecommerce </title>
+    <title>All - Product - RedStore</title>
 
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -14,59 +14,42 @@
 </head>
 
 <body>
-    <div class="header">
-        <div class="container">
-            <div class="navbar">
-                <div class="logo">
-                    <img src="assets/img/logo.png" width="125">
-                </div>
-                <nav>
-                    <ul id="MenuItems">
-                        <li><a href="/home">Home</a></li>
-                        <li><a href="/product">Products</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Contact</a></li>
-                        <li><a href="">Account</a></li>
-                    </ul>
-                </nav>
-                <img src="assets/img/cart.png" width="30px" height="30px">
-                <img src="assets/img/menu.png" class="menu-icon" onclick="menutoggle()">
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="assets/img/logo.png" width="125">
             </div>
-            <div class="row">
-                <div class="col-2">
-                    <h1>Give Your Workout <br> A New Style</h1>
-                    <p>Succeess isn't always about greatness. It's about consistency.
-                        Consistent <br> hard work gains success.
-                        Greatness will come.</p>
-                    <a href="" class="btn">Explore now &#8594;</a>
-                </div>
-                <div class="col-2">
-                    <img src="assets/img/image1.png">
-                </div>
-            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/product">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="assets/img/cart.png" width="30px" height="30px">
+            <img src="assets/img/menu.png" class="menu-icon" onclick="menutoggle()">
         </div>
     </div>
 
     <!------------ Featured categories------->
-    <div class="categories">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3">
-                    <img src="assets/img/category-1.jpg">
-                </div>
-                <div class="col-3">
-                    <img src="assets/img/category-2.jpg">
-                </div>
-                <div class="col-3">
-                    <img src="assets/img/category-3.jpg">
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!------------ Featured Products------->
     <div class="small-container">
-        <h2 class="title">Featured Products</h2>
+
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option value="">Default Shorting</option>
+                <option value="">Short by price</option>
+                <option value="">Short by popular</option>
+                <option value="">Short by rating</option>
+                <option value="">Short by sale</option>
+            </select>
+        </div>
+
         <div class="row">
             <div class="col-4">
                 <img src="assets/img/product-1.jpg">
@@ -117,7 +100,6 @@
                 <p>$50.00</p>
             </div>
         </div>
-        <h2 class="title">Latest Products</h2>
         <div class="row">
             <div class="col-4">
                 <img src="assets/img/product-5.jpg">
@@ -217,98 +199,13 @@
                 </div>
                 <p>$50.00</p>
             </div>
-
         </div>
-    </div>
-
-    <!------------ Featured Products------->
-    <div class="offer">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-2">
-                    <img src="assets/img/exclusive.png" class="offer-img">
-                </div>
-                <div class="col-2">
-                    <p>Exclusively Available on RedStore</p>
-                    <h1>Smart Band 4</h1>
-                    <small> The Mi Smart Band 4 features a 39.9% larger
-                        (than Mi Band 3) AMOLED color full-touch display with
-                        adjustable brightness, so everyting is clear as can
-                        be.</small>
-                    <a href="" class="btn">Buy Now &#8594;</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!------Testimoni------>
-    <div class="testimonial">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>Ta</p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half"></i>
-                    </div>
-                    <img src="assets/img/user-1.png">
-                    <h3>Sean Parker</h3>
-                </div>
-
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>Ta</p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half"></i>
-                    </div>
-                    <img src="assets/img/user-2.png">
-                    <h3>James</h3>
-                </div>
-
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>Ta</p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half"></i>
-                    </div>
-                    <img src="assets/img/user-3.png">
-                    <h3>Poppins</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!------------ brands------->
-    <div class="brands">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-5">
-                    <img src="assets/img/logo-godrej.png">
-                </div>
-                <div class="col-5">
-                    <img src="assets/img/logo-oppo.png">
-                </div>
-                <div class="col-5">
-                    <img src="assets/img/logo-coca-cola.png">
-                </div>
-                <div class="col-5">
-                    <img src="assets/img/logo-paypal.png">
-                </div>
-                <div class="col-5">
-                    <img src="assets/img/logo-philips.png">
-                </div>
-            </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4 </span>
+            <span>&#8594;</span>
         </div>
     </div>
 

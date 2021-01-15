@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class HomeController extends Controller
+class ProductController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,10 +13,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home.index');
+        return view('product.product');
     }
-
-
 
     /**
      * Show the form for creating a new resource.
