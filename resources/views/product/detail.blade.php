@@ -36,19 +36,58 @@
 
     <!------------ Single product------->
 
-    <div class="small-container">
+    <div class="small-container single-product">
         <div class="row">
             <div class="col-2">
-                <img src="assets/img/gallery-1.jpg" width="100%">
+                <img src="assets/img/gallery-1.jpg" width="100%" id="ProductImg">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="assets/img/gallery-1.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="assets/img/gallery-2.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="assets/img/gallery-3.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="assets/img/gallery-4.jpg" width="100%" class="small-img">
+                    </div>
+                </div>
+
             </div>
             <div class="col-2">
-                <p>Home / T-Shirt</p>
+                <p><a href="/home">Home</a> / T-Shirt</p>
                 <h1>Red Printd T-Shirt by HRX</h1>
                 <H4>$50.00</H4>
+                <select>
+                    <option value="">Select Size</option>
+                    <option value="">XXL</option>
+                    <option value="">XL</option>
+                    <option value="">Large</option>
+                    <option value="">Medium</option>
+                    <option value="">Small</option>
+                </select>
+                <input type="number" value="1">
+                <a href="" class="btn">Add To cart</a>
+
+                <h3>Product Detail <i class="fa fa-indent"></i></h3>
+                <br>
+                <p>Give your Summer wardrobe a style upgrade with the HRX Men's Active T-shirt. Team it with a pair of
+                    short for your morning workout or a denims for an evening out with
+                    the guys</p>
             </div>
         </div>
     </div>
-    <!------------ Featured Products------->
+    <!------------ title------->
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Releted Product</h2>
+            <p>View More</p>
+        </div>
+    </div>
+
+
     <div class="small-container">
         <div class="row">
             <div class="col-4">
