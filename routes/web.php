@@ -20,3 +20,4 @@ Route::get('/', function () {
 Route::get('/home', 'App\Http\Controllers\HomeController@index');
 Route::get('/product', 'App\Http\Controllers\ProductController@index');
 Route::get('/detail', 'App\Http\Controllers\ProductdetailController@index');
+Route::get('/detail/cart', 'App\Http\Controllers\ProductdetailController@cart');
